@@ -11,5 +11,6 @@ services:
     environment:
       MONGO_INITDB_ROOT_USERNAME: root
       MONGO_INITDB_ROOT_PASSWORD: erick17
+      MONGO_INITDB_DATABASE: SIGDB
 volumes:
   mongo_data:
